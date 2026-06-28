@@ -12,6 +12,7 @@ const NAV_ITEMS: NavItem[] = [
   { to: "/worldsofknowledge", label: "Worlds of Knowledge" },
   { to: "/memoryconstellations", label: "Memory Constellations" },
   { to: "/ideaforge", label: "The Idea Forge" },
+  { to: "/cosmicmap", label: "Cosmic Map" },
 ];
 
 /**

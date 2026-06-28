@@ -9,11 +9,8 @@ import Grandarchive from "@/pages/Grandarchive";
 import Worldsofknowledge from "@/pages/Worldsofknowledge";
 import Memoryconstellations from "@/pages/Memoryconstellations";
 import Ideaforge from "@/pages/Ideaforge";
+import Cosmicmap from "@/pages/Cosmicmap";
 import NotFound from "@/pages/NotFound";
-import Ideaforge from "./pages/Ideaforge";
-import Worldsofknowledge from "./pages/Worldsofknowledge";
-import Memoryconstellations from "./pages/Memoryconstellations";
-import Grandarchive from "./pages/Grandarchive";
 
 const queryClient = new QueryClient();
 
@@ -31,6 +28,7 @@ const App = () => {
                 <Route path="/worldsofknowledge" element={<Worldsofknowledge />} />
                 <Route path="/memoryconstellations" element={<Memoryconstellations />} />
                 <Route path="/ideaforge" element={<Ideaforge />} />
+                <Route path="/cosmicmap" element={<Cosmicmap />} />
                 <Route path="*" element={<NotFound />} />
               </Route>
             </Routes>

@@ -13,6 +13,7 @@ const NAV_ITEMS: NavItem[] = [
   { to: "/memoryconstellations", label: "Memory Constellations" },
   { to: "/ideaforge", label: "The Idea Forge" },
   { to: "/cosmicmap", label: "Cosmic Map" },
+  { to: "/constellationbuilder", label: "Constellation Builder" },
 ];
 
 /**

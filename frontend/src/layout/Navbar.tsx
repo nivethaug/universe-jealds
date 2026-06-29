@@ -14,6 +14,7 @@ const NAV_ITEMS: NavItem[] = [
   { to: "/ideaforge", label: "The Idea Forge" },
   { to: "/cosmicmap", label: "Cosmic Map" },
   { to: "/constellationbuilder", label: "Constellation Builder" },
+  { to: "/nebulagarden", label: "Nebula Garden" },
 ];
 
 /**
